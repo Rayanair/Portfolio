@@ -1,5 +1,4 @@
 import React from 'react';
-import Space from '../Component/Space';
 import NavBar from '../Component/NavBar';
 import Parcours from '../Component/Parcours';
 import Competences from '../Component/Competences';

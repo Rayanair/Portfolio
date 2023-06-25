@@ -2,6 +2,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from './Page/HomePage';
 import Portfolio from './Page/Portfolio';
+import Cv from './Page/Cv';
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     element: <Portfolio />,
     path: "/Portfolio"
+  },
+  {
+    element: <Cv/>,
+    path: "/Cv"
   },
 
 ]);
